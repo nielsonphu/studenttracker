@@ -1,0 +1,116 @@
+/* Color Scheme was taken from the Django Docs */
+
+
+body {
+	width: 770px;
+	height: 500px;
+	font:12px "Trebuchet MS", sans-serif;
+	background-color: #092e20;
+	color: #ffe479;
+	}
+	
+textarea {
+	resize: none;
+}
+	
+b {
+	font-size: 12pt;
+}
+
+img {
+	height: 17px;
+	width: 17px;
+	position: relative;
+	top: 6px;
+	left: 460px;
+	cursor: pointer;
+}
+
+input[type="button"] {
+	cursor: pointer;
+}
+	
+#studentlistdiv {
+	text-align: center;
+	float: left;
+	width: 180px;
+	overflow: auto;
+	}
+	
+#studentlistdiv ul {
+	display: block;
+	list-style: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 40px;
+}
+	
+
+#studentlist li {
+	display: block;
+	height: 25px;
+	text-align: center;
+	background-color: #234f32;
+	border: 1px solid #092e20;
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+	color: #ffe479;
+	font-size: 11pt;
+}
+
+#studentlist li.active {
+	background-color: #92cc47;
+	color: #092e20;
+	font-weight: bold;
+}
+	
+	
+#classinfo {
+	float: left;
+	width: 575px;
+	margin-left: 5px;
+	background-color: #234f32;
+	padding-left: 10px;
+	
+}
+
+
+#addclass {
+	position: relative;
+	left: 470px;
+	margin-bottom: 25px;
+	}
+	
+#removestudent {
+	position: relative;
+	left: 450px;
+}
+
+#students {
+	font-size: 14pt;
+}
+	
+.hwk {
+	position: relative;
+	left: 145px;
+	}
+
+.other {
+	position: relative;
+	left: 305px;
+	}
+	
+.sid {
+	font-size: 16pt;
+	font-weight: bold;
+	border-bottom: 1px solid;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.klass {
+	cursor: pointer;
+}
+	
+	
